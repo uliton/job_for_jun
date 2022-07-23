@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable max-len */
 /* eslint-disable react/prop-types */
 import React, { useState } from 'react';
@@ -6,8 +7,15 @@ import douImage from '../../images/dou.webp';
 
 import styles from './Company.module.scss';
 
-export const Company = ({ name, logo, link, linkedin, dou }) => {
-  const [status, setStatus] = useState(false);
+export const Company = ({ id, name, logo, link, linkedin, dou }) => {
+  const [status, setStatus] = useState(localStorage.getItem(id));
+
+  // const save = (value) => {
+  //   setStatus(value);
+  //   localStorage.setItem(id, status);
+  // };
+
+  console.log('render Company');
 
   return (
     <div className={styles.container}>
@@ -47,6 +55,7 @@ export const Company = ({ name, logo, link, linkedin, dou }) => {
               className={styles.statusDone}
               onClick={() => {
                 setStatus(false);
+                localStorage.removeItem(id);
               }}
             >
               done
@@ -58,6 +67,7 @@ export const Company = ({ name, logo, link, linkedin, dou }) => {
               className={styles.statusNeedConnect}
               onClick={() => {
                 setStatus(true);
+                localStorage.setItem(id, status);
               }}
             >
               need connect

@@ -11,6 +11,8 @@ export const App = () => (
     <div className={styles.flex}>
       {companies.map(company => (
         <Company
+          key={company.id}
+          id={company.id}
           name={company.companyName}
           logo={company.logo}
           link={company.website}
