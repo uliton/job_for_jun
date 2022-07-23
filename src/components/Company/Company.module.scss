@@ -1,0 +1,106 @@
+@import '../../App.module.scss';
+
+.container {
+  padding: 15px;
+  border: 1px solid red;
+  border-radius: 15px;
+  width: 350px;
+  // background-color: rgb(232, 250, 217);
+
+  @include onDesktop {
+    width: 440px;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height:  90px;
+  font-size: 28px;
+}
+
+.logoImage {
+  max-width: 150px;
+  max-height: 80px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: rgb(107, 189, 224);
+  text-transform: uppercase;
+  font-size: 26px;
+  padding: 5px;
+  transition: transform 1s;
+  margin-bottom: 10px;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.networks {
+  display: flex;
+  gap: 15px;
+}
+
+.linkedin {
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.dou {
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border: 1px solid lightgray;
+  
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statusDone {
+  background-color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  color: green;
+  font-size: 28px;
+  font-weight: bold;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.statusNeedConnect {
+  background-color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

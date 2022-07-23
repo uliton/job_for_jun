@@ -1,0 +1,36 @@
+@import './utils/mixins';
+
+html {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.body {
+  margin: auto;
+  padding: 30px 40px;
+  max-width: 1300px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+
+  @include onTablet {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include onDesktop {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+
+  @include onDesktop {
+    gap: 60px;
+  }
+}
