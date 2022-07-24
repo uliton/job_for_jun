@@ -23,7 +23,7 @@ export const Company = ({ id, name, logo, link, linkedin, dou }) => {
         <span className={styles.name}>
           {name}
         </span>
-        <div>
+        <div className={styles.logo}>
           <img src={logo} alt="logo" className={styles.logoImage} />
         </div>
       </div>

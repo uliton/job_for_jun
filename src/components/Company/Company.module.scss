@@ -21,13 +21,18 @@
   display: flex;
   align-items: center;
   width: 70%;
-  height:  90px;
+  height:  65px;
   font-size: 22px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
 }
 
 .logoImage {
   max-width: 80px;
-  max-height: 80px;
+  max-height: 50px;
 }
 
 .link {
@@ -78,6 +83,8 @@
 }
 
 .statusDone {
+  padding: 0;
+  width: min-content;
   background-color: #fff;
   border: none;
   display: flex;
@@ -93,6 +100,8 @@
 }
 
 .statusNeedConnect {
+  padding: 0;
+  width: min-content;
   background-color: #fff;
   border: none;
   display: flex;
