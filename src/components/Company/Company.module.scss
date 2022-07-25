@@ -2,10 +2,9 @@
 
 .container {
   padding: 15px;
-  border: 1px solid red;
+  border: 1px solid salmon;
   border-radius: 15px;
   width: 350px;
-  // background-color: rgb(232, 250, 217);
 
   @include onDesktop {
     width: 440px;
