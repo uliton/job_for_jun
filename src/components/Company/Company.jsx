@@ -10,13 +10,6 @@ import styles from './Company.module.scss';
 export const Company = ({ id, name, logo, link, linkedin, dou }) => {
   const [status, setStatus] = useState(localStorage.getItem(id));
 
-  // const save = (value) => {
-  //   setStatus(value);
-  //   localStorage.setItem(id, status);
-  // };
-
-  console.log('render Company');
-
   return (
     <div className={styles.container}>
       <div className={styles.header}>

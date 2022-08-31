@@ -1,0 +1,43 @@
+.search_bar {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.input {
+  font-family: 'Mochiy Pop One', sans-serif;
+  color: gray;
+  padding: 12px 0 15px 15px;
+  border: 1px solid green;
+  border-radius: 15px;
+  outline: none;
+
+  &:focus {
+    border: 1px solid rgb(0, 220, 0);
+  }
+}
+
+.button {
+  font-family: 'Mochiy Pop One', sans-serif;
+  padding: 0px 5px 3px 5px;
+  height: 45px;
+  border: 1px solid salmon;
+  background-color: #fff;
+  color: salmon;
+  border-radius: 15px;
+  
+  &:hover {
+    cursor: pointer;
+    background-color: salmon;
+    color: #fff;
+  }
+
+  &:active {
+    border: 1px solid green;
+    background-color: #fff;
+    color: gray;
+  }
+}

@@ -82,9 +82,8 @@
 }
 
 .statusDone {
-  font-family: 'Mochiy Pop One', sans-serif;
+  font-family: inherit;
   padding: 0;
-  width: min-content;
   background-color: #fff;
   border: none;
   display: flex;
@@ -100,9 +99,8 @@
 }
 
 .statusNeedConnect {
-  font-family: 'Mochiy Pop One', sans-serif;
+  font-family: inherit;
   padding: 0;
-  width: min-content;
   background-color: #fff;
   border: none;
   display: flex;
