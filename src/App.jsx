@@ -7,6 +7,7 @@ import { OtherProjects } from './components/OtherProjects';
 export const App = () => (
   <Routes>
     <Route path="/" element={<Main />} />
+    <Route path="/job_for_jun/" element={<Main />} />
     <Route path="/op" element={<OtherProjects />} />
   </Routes>
 );
