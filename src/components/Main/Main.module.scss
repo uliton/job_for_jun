@@ -1,0 +1,47 @@
+@import '../../utils/mixins';
+
+html {
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.body {
+  margin: auto;
+  padding: 30px 40px;
+  max-width: 1300px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+
+  @include onDesktop {
+    gap: 60px;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+  margin: auto;
+}
+
+.button {
+  font-family: inherit;
+  height: 36px;
+  width: 120px;
+  border: 1px solid green;
+  border-radius: 10px;
+  background-color: #fff;
+  color: green;
+  text-transform: uppercase;
+
+  &:hover {
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+  }
+}
