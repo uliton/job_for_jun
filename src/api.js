@@ -1,13 +1,15 @@
 /* eslint-disable no-console */
 /* eslint-disable max-len */
-// const LOGIN_URL = 'https://docs.google.com/spreadsheets/d/1nAVkQv14TchyoU5qFxBdNclkbyru5x0Hdbw2qHJ_b-4/edit#gid=2023344179&range=A2';
+const URL = 'https://docs.google.com/spreadsheets/d/1Sbn2dx_iR37rB2jMV9Ku34TUWhEpkCWWcmpn9RUEhvI/edit?usp=sharing';
 
 // eslint-disable-next-line no-unused-vars
-// const getLogin = async() => {
-//   const response = await fetch(`${LOGIN_URL}/`);
+const getLogin = async() => {
+  const response = await fetch(`${URL}/`);
 
-//   console.log(response);
-// };
+  console.log(response);
+};
+
+// getLogin();
 
 export const login = 'x3m';
 export const password = '4444';
