@@ -425,5 +425,19 @@
     "url": "https://github.com/uliton/job_for_jun",
     "chapter": "my_op",
     "demo_link": "https://uliton.github.io/job_for_jun/"
+  },
+  {
+    "id": 62,
+    "name": "CV",
+    "url": "https://github.com/uliton/CV",
+    "chapter": "my_op",
+    "demo_link": "https://uliton.github.io/CV/"
+  },
+  {
+    "id": 63,
+    "name": "Countries",
+    "url": "https://github.com/uliton/Countries",
+    "chapter": "test_task",
+    "demo_link": "https://uliton.github.io/Countries/"
   }
 ]

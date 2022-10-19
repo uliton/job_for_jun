@@ -8,6 +8,6 @@ export const Footer = () => (
     {' '}
     <Link to="/job_for_jun/op" className={style.link}>Uliton</Link>
     {' '}
-    &trade;
+    &copy;
   </footer>
 );
