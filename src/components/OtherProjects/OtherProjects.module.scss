@@ -1,0 +1,77 @@
+.loginForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+  width: max-content;
+  margin: auto;
+}
+
+.input {
+  font-family: 'Mochiy Pop One', sans-serif;
+  color: gray;
+  padding: 12px 0 15px 15px;
+  border: 1px solid green;
+  border-radius: 15px;
+  outline: none;
+
+  &:focus {
+    border: 1px solid rgb(0, 220, 0);
+  }
+}
+
+.button {
+  font-family: inherit;
+  height: 36px;
+  width: 48px;
+  border: 1px solid green;
+  border-radius: 10px;
+  background-color: #fff;
+  color: green;
+  text-transform: uppercase;
+
+  &:hover {
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+  }
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.formHead {
+  color: green;
+  padding-right: 20px;
+  margin-right: 20px;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.formItem {
+  padding-right: 20px;
+  border-bottom: 1px dotted #000;
+}
+
+.formLink {
+  text-decoration: none;
+  color: red;
+
+  &:hover {
+    color: yellowgreen;
+  }
+}

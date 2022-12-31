@@ -4,14 +4,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   color: green;
-  font-size: 40px;
+  font-size: 34px;
   font-weight: bold;
-  padding: 15px;
+  // padding: 15px;
   margin-bottom: 30px;
 
   @include onTablet {
-    font-size: 65px;
+    font-size: 60px;
   }
 
   @include onDesktop {

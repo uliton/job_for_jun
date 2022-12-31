@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "hello-world",
+    "name": "hello_world",
     "url": "https://github.com/uliton/layout_hello-world",
     "chapter": "layout",
     "demo_link": "https://uliton.github.io/layout_hello-world/"
@@ -15,21 +15,21 @@
   },
   {
     "id": 3,
-    "name": "html-form",
+    "name": "html_form",
     "url": "https://github.com/uliton/layout_html-form",
     "chapter": "layout",
     "demo_link": "https://uliton.github.io/layout_html-form/"
   },
   {
     "id": 4,
-    "name": "search-bar-airbnb",
+    "name": "search_bar_airbnb",
     "url": "https://github.com/uliton/layout_search-bar-airbnb",
     "chapter": "layout",
     "demo_link": "https://uliton.github.io/layout_search-bar-airbnb/"
   },
   {
     "id": 5,
-    "name": "moyo-header",
+    "name": "moyo_header",
     "url": "https://github.com/uliton/layout_moyo-header",
     "chapter": "layout",
     "demo_link": "https://uliton.github.io/layout_moyo-header/"
@@ -43,7 +43,7 @@
   },
   {
     "id": 7,
-    "name": "product-cards",
+    "name": "product_cards",
     "url": "https://github.com/uliton/layout_product-cards",
     "chapter": "layout",
     "demo_link": "https://uliton.github.io/layout_product-cards/"
@@ -57,7 +57,7 @@
   },
   {
     "id": 9,
-    "name": "transportation-on-vacation",
+    "name": "transportation_on_vacation",
     "url": "https://github.com/uliton/js_task-transportation-on-vacation",
     "chapter": "js",
     "demo_link": ""
@@ -71,14 +71,14 @@
   },
   {
     "id": 11,
-    "name": "stateful-object",
+    "name": "stateful_object",
     "url": "https://github.com/uliton/js_stateful-object",
     "chapter": "js",
     "demo_link": ""
   },
   {
     "id": 12,
-    "name": "stateful-clones",
+    "name": "stateful_clones",
     "url": "https://github.com/uliton/js_stateful-clones",
     "chapter": "js",
     "demo_link": ""
@@ -106,28 +106,28 @@
   },
   {
     "id": 16,
-    "name": "array-method-join",
+    "name": "array_method_join",
     "url": "https://github.com/uliton/js_array-method-join",
     "chapter": "js",
     "demo_link": ""
   },
   {
     "id": 17,
-    "name": "average-ages",
+    "name": "average_ages",
     "url": "https://github.com/uliton/js_average-ages",
     "chapter": "js",
     "demo_link": ""
   },
   {
     "id": 18,
-    "name": "style-to-object",
+    "name": "style_to_object",
     "url": "https://github.com/uliton/js_style-to-object",
     "chapter": "js",
     "demo_link": ""
   },
   {
     "id": 19,
-    "name": "sum-with-closure",
+    "name": "sum_with_closure",
     "url": "https://github.com/uliton/js_sum-with-closure",
     "chapter": "js",
     "demo_link": ""
@@ -190,7 +190,7 @@
   },
   {
     "id": 28,
-    "name": "movies-list",
+    "name": "movies_list",
     "url": "https://github.com/uliton/react_movies-list",
     "chapter": "react",
     "demo_link": "https://uliton.github.io/react_movies-list/"
@@ -211,7 +211,7 @@
   },
   {
     "id": 31,
-    "name": "static-list-of-posts",
+    "name": "static_list_of_posts",
     "url": "https://github.com/uliton/react_static-list-of-posts",
     "chapter": "react",
     "demo_link": "https://uliton.github.io/react_static-list-of-posts/"
@@ -239,42 +239,42 @@
   },
   {
     "id": 35,
-    "name": "static-list-of-todos",
+    "name": "static_list_of_todos",
     "url": "https://github.com/uliton/react_static-list-of-todos",
     "chapter": "react",
     "demo_link": "https://uliton.github.io/react_static-list-of-todos/"
   },
   {
     "id": 36,
-    "name": "goods-selector",
+    "name": "goods_selector",
     "url": "https://github.com/uliton/react_goods-selector",
     "chapter": "react",
     "demo_link": "https://uliton.github.io/react_goods-selector/"
   },
   {
     "id": 37,
-    "name": "list-of-goods-hooks",
+    "name": "list_of_goods_hooks",
     "url": "https://github.com/uliton/react_list-of-goods-hooks",
     "chapter": "react",
     "demo_link": "https://uliton.github.io/react_list-of-goods-hooks/"
   },
   {
     "id": 38,
-    "name": "add-todo-form",
+    "name": "add_todo_form",
     "url": "https://github.com/uliton/react_add-todo-form",
     "chapter": "react",
     "demo_link": "https://uliton.github.io/react_add-todo-form/"
   },
   {
     "id": 39,
-    "name": "list-of-goods",
+    "name": "list_of_goods",
     "url": "https://github.com/uliton/react_list-of-goods",
     "chapter": "react",
     "demo_link": "https://uliton.github.io/react_list-of-goods/"
   },
   {
     "id": 40,
-    "name": "stop-watch",
+    "name": "stop_watch",
     "url": "https://github.com/uliton/layout_stop-watch",
     "chapter": "layout",
     "demo_link": "https://uliton.github.io/layout_stop-watch/"
@@ -309,56 +309,56 @@
   },
   {
     "id": 45,
-    "name": "movies-list-add-form",
+    "name": "movies_list_add_form",
     "url": "https://github.com/uliton/react_movies-list-add-form",
     "chapter": "react",
     "demo_link": "https://uliton.github.io/react_movies-list-add-form/"
   },
   {
     "id": 46,
-    "name": "movies-list-filter",
+    "name": "movies_list_filter",
     "url": "https://github.com/uliton/react_movies-list-filter",
     "chapter": "react",
     "demo_link": "https://uliton.github.io/react_movies-list-filter/"
   },
   {
     "id": 47,
-    "name": "dynamic-list-of-todos",
+    "name": "dynamic_list_of_todos",
     "url": "https://github.com/uliton/react_dynamic-list-of-todos",
     "chapter": "react",
     "demo_link": "https://uliton.github.io/react_dynamic-list-of-todos/"
   },
   {
     "id": 48,
-    "name": "dynamic-list-of-posts",
+    "name": "dynamic_list_of_posts",
     "url": "https://github.com/uliton/react_dynamic-list-of-posts",
     "chapter": "react",
     "demo_link": "https://uliton.github.io/react_dynamic-list-of-posts/"
   },
   {
     "id": 49,
-    "name": "movies-list-fetch-movies",
+    "name": "movies_list_fetch_movies",
     "url": "https://github.com/uliton/react_movies-list-fetch-movies",
     "chapter": "react",
     "demo_link": "https://uliton.github.io/react_movies-list-fetch-movies/"
   },
   {
     "id": 50,
-    "name": "dynamic-list-of-goods",
+    "name": "dynamic_list_of_goods",
     "url": "https://github.com/uliton/react_dynamic-list-of-goods",
     "chapter": "react",
     "demo_link": "https://uliton.github.io/react_dynamic-list-of-goods/"
   },
   {
     "id": 51,
-    "name": "people-table-basics",
+    "name": "people_table_basics",
     "url": "https://github.com/uliton/react_people-table-basics",
     "chapter": "react",
     "demo_link": "https://uliton.github.io/react_people-table-basics/"
   },
   {
     "id": 52,
-    "name": "redux-list-of-todos",
+    "name": "redux_list_of_todos",
     "url": "https://github.com/uliton/react_redux-list-of-todos",
     "chapter": "react",
     "demo_link": "https://uliton.github.io/react_redux-list-of-todos/"

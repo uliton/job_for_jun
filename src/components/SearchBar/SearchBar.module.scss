@@ -1,3 +1,5 @@
+@import '../../utils/mixins';
+
 .search_bar {
   display: flex;
   flex-direction: column;
@@ -8,13 +10,19 @@
 
 .search_container {
   display: flex;
-  gap: 50px;
+  flex-direction: column;
+  gap: 20px;
+
+  @include onTablet {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .input {
   font-family: 'Mochiy Pop One', sans-serif;
   color: gray;
-  padding: 12px 0 15px 15px;
+  padding: 8px 0 12px 12px;
   border: 1px solid green;
   border-radius: 15px;
   outline: none;

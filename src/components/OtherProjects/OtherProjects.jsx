@@ -3,6 +3,7 @@
 /* eslint-disable no-restricted-syntax */
 /* eslint-disable no-console */
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import projects from '../../repositories.json';
 import { login, password } from '../../api';
 
@@ -29,7 +30,7 @@ export const OtherProjects = () => {
     );
   };
 
-  const [loginStatus, setLoginStatus] = useState(false);
+  const [loginStatus, setLoginStatus] = useState(true);
   const [loginQuery, setLoginQuery] = useState('');
   const [passwordQuery, setPasswordQuery] = useState('');
   const [error, setError] = useState('');
@@ -70,6 +71,7 @@ export const OtherProjects = () => {
                 >
                   choose a categor
                 </option>
+
                 {categories.map((category, i) => (
                   <option key={i} value={category}>
                     {category}
@@ -77,30 +79,31 @@ export const OtherProjects = () => {
                 ))}
               </select>
 
-              <a
+              {/* <a
                 href="https://drive.google.com/file/d/1nhXyA3fb5lFC2n9Lp2V-JJ6HqtvXMs1Y/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 My CV
-              </a>
+              </a> */}
             </div>
 
             {renderProjects.length > 0 && (
               <table>
                 <thead>
                   <tr>
-                    <th>Name</th>
-                    <th>DEMO</th>
-                    <th>Repository</th>
+                    <th className={style.formHead}>Name</th>
+                    <th className={style.formHead}>DEMO</th>
+                    <th className={style.formHead}>Repository</th>
                   </tr>
                 </thead>
                 <tbody>
                   {renderProjects.map(project => (
                     <tr key={project.id}>
-                      <td>{project.name}</td>
+                      <td className={style.formItem}>{project.name}</td>
                       <td>
                         <a
+                          className={style.formLink}
                           href={project.demo_link}
                           target="_blank"
                           rel="noopener noreferrer"
@@ -110,6 +113,7 @@ export const OtherProjects = () => {
                       </td>
                       <td>
                         <a
+                          className={style.formLink}
                           href={project.url}
                           target="_blank"
                           rel="noopener noreferrer"
@@ -125,32 +129,43 @@ export const OtherProjects = () => {
           </div>
         )
         : (
-          <div>
+          <div className={style.loginForm}>
             <input
               type="text"
               placeholder="login"
               value={loginQuery}
+              className={style.input}
               onChange={(e) => {
                 setLoginQuery(e.target.value);
               }}
             />
+
             <input
               type="password"
               placeholder="password"
               value={passwordQuery}
+              className={style.input}
               onChange={(e) => {
                 setPasswordQuery(e.target.value);
               }}
             />
+
             <button
               type="button"
+              className={style.button}
               onClick={handlerLogin}
+              onKeyDown={handlerLogin}
             >
               GO
             </button>
-            <p>
-              {error}
-            </p>
+
+            {error && (
+              <p className={style.error}>
+                {error}
+              </p>
+            )}
+
+            <Link to="/" className={style.link}>Main</Link>
           </div>
         )
       }
