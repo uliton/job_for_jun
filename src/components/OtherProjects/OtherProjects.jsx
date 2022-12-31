@@ -50,9 +50,18 @@ export const OtherProjects = () => {
       {loginStatus
         ? (
           <div className={style.body}>
-            <p>
-              OtherProjects
-            </p>
+            <span className={style.header}>
+              <p>
+                OtherProjects
+              </p>
+
+              <Link
+                to="/"
+                className={style.exit}
+              >
+                EXIT
+              </Link>
+            </span>
 
             <div>
               <span>

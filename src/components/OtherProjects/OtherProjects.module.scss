@@ -54,6 +54,24 @@
   }
 }
 
+
+
+// rendering
+.body {
+  width: 500px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.exit {
+  text-decoration: none;
+  color: red;
+}
+
 .formHead {
   color: green;
   padding-right: 20px;
