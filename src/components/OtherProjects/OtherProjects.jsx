@@ -30,7 +30,7 @@ export const OtherProjects = () => {
     );
   };
 
-  const [loginStatus, setLoginStatus] = useState(true);
+  const [loginStatus, setLoginStatus] = useState(false);
   const [loginQuery, setLoginQuery] = useState('');
   const [passwordQuery, setPasswordQuery] = useState('');
   const [error, setError] = useState('');
